@@ -1,0 +1,5 @@
+================================
+collective.anonymouseditpatterns
+================================
+
+User documentation
