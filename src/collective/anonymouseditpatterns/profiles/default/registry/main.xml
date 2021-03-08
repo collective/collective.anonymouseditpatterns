@@ -3,6 +3,24 @@
     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
     i18n:domain="collective.anonymouseditpatterns">
 
-<!-- -*- extra stuff goes here -*- -->
+  <records prefix="plone.resources/anonymouseditpatterns_js"
+           interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+    <value key="js">++resource++collective.anonymouseditpatterns/main.js</value>
+  </records>
+
+  <records prefix="plone.bundles/anonymouseditpatterns-bundle"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'>
+    <value key="resources" purge="false">
+      <element>mockup-patterns-pickadate</element>
+      <element>anonymouseditpatterns_js</element>
+    </value>
+    <value key="jscompilation">++plone++static/anonymouseditpatterns.min.js</value>
+    <value key="csscompilation">++plone++static/anonymouseditpatterns.min.css</value>
+    <value key="merge_with">default</value>
+    <value key="compile">True</value>
+    <value key="depends">plone</value>
+    <value key="enabled">True</value>
+    <value key="last_compilation">2017-02-26 10:26:00</value>
+  </records>
 
 </registry>
