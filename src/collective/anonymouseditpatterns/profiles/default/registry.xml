@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<registry
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n:domain="collective.anonymouseditpatterns">
+
+  <records prefix="plone.resources/anonymouseditpatterns"
+           interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+    <value key="js">++plone++collective.anonymouseditpatterns/js/anonymouseditpatterns.js</value>
+      <value key="css">
+        <element>++plone++collective.anonymouseditpatterns/css/anonymouseditpatterns.less</element>
+      </value>
+  </records>
+
+  <records prefix="plone.bundles/anonymouseditpatterns-bundle"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'>
+    <value key="resources" purge="false">
+      <element>anonymouseditpatterns</element>
+    </value>
+    <value key="jscompilation">++plone++collective.anonymouseditpatterns/anonymouseditpatterns-compiled.min.js</value>
+    <value key="csscompilation">++plone++collective.anonymouseditpatterns/anonymouseditpatterns-compiled.min.css</value>
+    <value key="merge_with">default</value>
+    <value key="compile">True</value>
+    <value key="depends">plone</value>
+    <value key="enabled">True</value>
+    <value key="last_compilation">2020-03-09 10:10:10</value>
+    <value key="stub_js_modules">
+      <element>underscore</element>
+      <element>pat-logger</element>
+      <element>logging</element>
+      <element>pat-compat</element>
+      <element>jquery.browser</element>
+      <element>pat-utils</element>
+      <element>pat-jquery-ext</element>
+      <element>pat-registry</element>
+      <element>pat-mockup-parser</element>
+      <element>pat-base</element>
+    </value>
+  </records>
+</registry>
