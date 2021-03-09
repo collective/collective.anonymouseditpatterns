@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0a1 (unreleased)
+1.0a1 (2021-03-09)
 ------------------
 
 - Initial release. Adds inline validation and pickadage patterns in an extra bundle 
