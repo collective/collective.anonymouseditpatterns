@@ -1,4 +1,4 @@
 Contributors
 ============
 
-- Zest, info@zestsoftware.nl
+- Fred van Dijk, Zest Software, info@zestsoftware.nl

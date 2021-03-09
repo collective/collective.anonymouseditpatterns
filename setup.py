@@ -30,7 +30,7 @@ setup(
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
     ],
     keywords='Python Plone CMS',
-    author='Zest',
+    author='Zest Software',
     author_email='info@zestsoftware.nl',
     url='https://github.com/collective/collective.anonymouseditpatterns',
     project_urls={
