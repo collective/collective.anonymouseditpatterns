@@ -2,7 +2,7 @@ Changelog
 =========
 
 
-1.0a2 (unreleased)
+1.0a2 (2021-03-11)
 ------------------
 
 - Fix uninstall profile to remove our resource and bundle.
