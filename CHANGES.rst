@@ -5,7 +5,8 @@ Changelog
 1.0a2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Fix uninstall profile to remove our resource and bundle.
+  [fredvd]
 
 
 1.0a1 (2021-03-09)
