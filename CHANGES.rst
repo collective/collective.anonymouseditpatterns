@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-1.0a3 (unreleased)
-------------------
+1.0 (2021-12-13)
+----------------
 
 - Rebuild bundle with Plone 5.2.6:
   - plone.staticresources 1.4.4
