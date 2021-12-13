@@ -5,8 +5,10 @@ Changelog
 1.0a3 (unreleased)
 ------------------
 
-- Nothing changed yet.
-
+- Rebuild bundle with Plone 5.2.6:
+  - plone.staticresources 1.4.4
+  - Mockup 3.2.7
+  [fredvd]
 
 1.0a2 (2021-03-11)
 ------------------
