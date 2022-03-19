@@ -5,7 +5,7 @@ Changelog
 1.1 (unreleased)
 ----------------
 
-- Nothing changed yet.
+- Fix wrong python_requires in setup.py. [fredvd]
 
 
 1.0 (2021-12-13)
