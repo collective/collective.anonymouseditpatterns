@@ -2,8 +2,8 @@ Changelog
 =========
 
 
-1.1 (unreleased)
-----------------
+1.0.1 (2022-03-19)
+------------------
 
 - Fix wrong python_requires in setup.py. [fredvd]
 
