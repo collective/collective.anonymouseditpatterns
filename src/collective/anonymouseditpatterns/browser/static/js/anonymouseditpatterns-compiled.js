@@ -9600,9 +9600,10 @@ define(
 require([
     'mockup-patterns-inlinevalidation',
     'mockup-patterns-pickadate',
+    'mockup-patterns-select2',
   ], function() {
     'use strict';
   });
-  
-define("/Users/fred/buildouts/zeelandia52/develop/collective.anonymouseditpatterns/src/collective/anonymouseditpatterns/browser/static/js/anonymouseditpatterns.js", function(){});
+
+define("/home/maik/develop/plone/src/collective.anonymouseditpatterns/src/collective/anonymouseditpatterns/browser/static/js/anonymouseditpatterns.js", function(){});
 
