@@ -40,3 +40,10 @@ run a specific tox env:
 
     $ tox -e py37-Plone52
 
+Generate bundle
+---------------
+
+To generate a new bundle, make sure you have a Plone instance running and create a new Plone site with the id "Plone" where you enable this addon.
+After that, stop the instance and run  the folowing command in the Terminal.
+
+    $ ./bin/plone-compile-resources -b anonymouseditpatterns-bundle
