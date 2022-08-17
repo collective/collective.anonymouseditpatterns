@@ -16,7 +16,7 @@
 require([
     'mockup-patterns-inlinevalidation',
     'mockup-patterns-pickadate',
+    'mockup-patterns-select2',
   ], function() {
     'use strict';
   });
-  
